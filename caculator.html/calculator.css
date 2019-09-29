@@ -1,0 +1,11 @@
+h1 {color:red}
+.button{
+    margin: 0px 15px 15px 0px;
+    padding: 10px 10px 10px 10px;
+    float: left;
+    text-align: center;
+    text transform: uppercase;
+}
+.khung {
+    text-align: right;
+}

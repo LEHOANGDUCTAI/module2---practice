@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="calculator.css"/>
+</head>
+<body>
+<h1>Calculator simple</h1>
+<form>
+      <input type = "text" id = "frame one"/>
+      <input type = "text" id = "frame two"/>
+       <input type = "text" id = "result"/>
+</form>
+        <button type ="button" onclick="addition(+)">addition(+)</button>
+        <button type ="button" onclick="Subtraction(-)">Subtraction(-)</button>
+        <button type ="button" onclick="Multiplication(X)">Multiplication(X)</button>
+        <button type ="button" onclick="Division(/)">Division(/)</button>
+<script>
+    function addition() {
+        let x =parseInt(document.getElementById("frame one").value);
+        let y = parseInt(document.getElementById("frame two").value);
+        result = x + y;
+        document.getElementById('result').value = result;
+
+    }
+</script>
+</body>
+</html>
